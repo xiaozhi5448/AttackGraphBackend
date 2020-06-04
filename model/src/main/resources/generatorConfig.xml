@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+  <properties resource="jdbc.properties"></properties>
+  <classPathEntry location="src/main/resources/mysql-connector-java-8.0.19.jar"/>
+
+  <context id="security" targetRuntime="MyBatis3" defaultModelType="conditional">
+    <jdbcConnection driverClass="${jdbc.driverClass}"
+                    connectionURL="${jdbc.url}"
+                    userId="${jdbc.username}"
+                    password="${jdbc.password}">
+    </jdbcConnection>
+
+    <javaTypeResolver>
+      <property name="forceBigDecimals" value="false"/>
+    </javaTypeResolver>
+
+    <javaModelGenerator targetPackage="com.loop0day.security.db.bean" targetProject="src/main/java">
+      <property name="enableSubPackages" value="false"/>
+      <property name="trimStrings" value="true"/>
+    </javaModelGenerator>
+
+    <sqlMapGenerator targetPackage="map" targetProject="src/main/resources">
+      <property name="enableSubPackages" value="false"/>
+    </sqlMapGenerator>
+
+    <javaClientGenerator type="XMLMAPPER" targetPackage="com.loop0day.security.db.dao" targetProject="src/main/java">
+      <property name="enableSubPackages" value="false"/>
+    </javaClientGenerator>
+
+    <table schema="security" tableName="attack_model">
+      <property name="constructorBased" value="true"/>
+      <property name="useActualColumnNames" value="false"/>
+    </table>
+
+    <table schema="security" tableName="attack_path">
+      <property name="constructorBased" value="true"/>
+      <property name="useActualColumnNames" value="false"/>
+    </table>
+
+    <table schema="security" tableName="device">
+      <property name="constructorBased" value="true"/>
+      <property name="useActualColumnNames" value="false"/>
+    </table>
+    <table schema="security" tableName="device_connect">
+      <property name="constructorBased" value="true"/>
+      <property name="useActualColumnNames" value="false"/>
+    </table>
+    <table schema="security" tableName="device_network">
+      <property name="constructorBased" value="true"/>
+      <property name="useActualColumnNames" value="false"/>
+    </table>
+    <table schema="security" tableName="device_route">
+      <property name="constructorBased" value="true"/>
+      <property name="useActualColumnNames" value="false"/>
+    </table>
+    <table schema="security" tableName="device_dataflow">
+      <property name="constructorBased" value="true"/>
+      <property name="useActualColumnNames" value="false"/>
+    </table>
+    <table schema="security" tableName="device_service">
+      <property name="constructorBased" value="true"/>
+      <property name="useActualColumnNames" value="false"/>
+    </table>
+    <table schema="security" tableName="device_privilege">
+      <property name="constructorBased" value="true"/>
+      <property name="useActualColumnNames" value="false"/>
+    </table>
+    <table schema="security" tableName="user_privilege">
+      <property name="constructorBased" value="true"/>
+      <property name="useActualColumnNames" value="false"/>
+    </table>
+
+    <table schema="security" tableName="security_function">
+      <property name="constructorBased" value="true"/>
+      <property name="useActualColumnNames" value="false"/>
+    </table>
+    <table schema="security" tableName="security_threat">
+      <property name="constructorBased" value="true"/>
+      <property name="useActualColumnNames" value="false"/>
+    </table>
+    <table schema="security" tableName="security_variant">
+      <property name="constructorBased" value="true"/>
+      <property name="useActualColumnNames" value="false"/>
+    </table>
+
+    <table schema="security" tableName="device_security">
+      <property name="constructorBased" value="true"/>
+      <property name="useActualColumnNames" value="false"/>
+    </table>
+    <table schema="security" tableName="device_threat">
+      <property name="constructorBased" value="true"/>
+      <property name="useActualColumnNames" value="false"/>
+    </table>
+
+    <table schema="security" tableName="service_testcase">
+      <property name="constructorBased" value="true"/>
+      <property name="useActualColumnNames" value="false"/>
+    </table>
+
+    <table schema="security" tableName="single_test">
+      <property name="constructorBased" value="true"/>
+      <property name="useActualColumnNames" value="false"/>
+    </table>
+
+  </context>
+</generatorConfiguration>

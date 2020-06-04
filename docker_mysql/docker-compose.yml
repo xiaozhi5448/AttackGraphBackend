@@ -1,0 +1,55 @@
+version: '3.5'
+services:
+  db:
+    image: "mysql:8"
+    restart: always
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: "wodemima"
+      MYSQL_DATABASE: "security"
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+  web:
+    image: "phpmyadmin/phpmyadmin:5.0.2"
+    ports:
+      - "8080:80"
+    environment:
+      PMA_HOST: "db"
+      PMA_PORT: "3306"
+      MYSQL_ROOT_PASSWORD: "wodemima"
+    depends_on:
+      - db
+
+  drawio:
+    image: fjudith/draw.io
+    container_name: drawio
+    restart: unless-stopped
+    ports:
+      - 8001:8080
+      - 8443:8443
+    environment:
+      PUBLIC_DNS: domain
+      ORGANISATION_UNIT: unit
+      ORGANISATION: org
+      CITY: city
+      STATE: state
+      COUNTRY_CODE: country
+      DRAWIO_GITLAB_URL: http://mygitlab.net
+      DRAWIO_GITLAB_ID: change_to_your_app_id
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://domain:8080 || exit 1"]
+      interval: 1m30s
+      timeout: 10s
+      retries: 5
+      start_period: 10s
+
+  plot:
+    build: python_plot
+    container_name: python_plot_service
+    tty: true
+    ports:
+      - 8002:8000
+    volumes:
+      - ./python_plot/graph:/data
+

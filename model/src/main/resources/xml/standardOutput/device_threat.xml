@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DATA> 
+  <ROW> 
+    <device_id>8</device_id>  
+    <service_id>1</service_id>  
+    <privilege_id>6</privilege_id>  
+    <threat_id>1</threat_id>  
+    <threat_weight>0</threat_weight> 
+  </ROW>  
+  <ROW>
+    <device_id>9</device_id>
+    <service_id>1</service_id>
+    <privilege_id>8</privilege_id>
+    <threat_id>14</threat_id>
+    <threat_weight>0</threat_weight>
+  </ROW>
+</DATA>

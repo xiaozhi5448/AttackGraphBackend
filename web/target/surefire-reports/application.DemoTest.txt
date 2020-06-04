@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: application.DemoTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.066 s <<< FAILURE! - in application.DemoTest
+testGraph  Time elapsed: 0.373 s  <<< ERROR!
+java.io.IOException: 系统找不到指定的路径。
+	at application.DemoTest.testGraph(Test.java:47)
+

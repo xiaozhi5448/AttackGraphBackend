@@ -1,0 +1,29 @@
+data:
+  host: 192.168.42.134
+rest:
+  plot-host-name: 127.0.0.1
+  plot-host-port: 8000
+  plot-graph-addr: http://${rest.plot-host-name}:${rest.plot-host-port}/getGraph/
+server:
+  port: 9000
+spring:
+#  datasource:
+#    username: root
+#    password: wodemima
+#    url: jdbc:mysql://${data.host}:3306/security?characterEncoding=utf8
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    initialization-mode: never
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+  jackson:
+    property-naming-strategy: UPPER_CAMEL_CASE
+  servlet:
+    multipart:
+      max-file-size: 10MB
+logging:
+  pattern:
+    console: "%d{MMM-dd HH:mm} %-5level %logger{15} - %msg%n"
+
+
