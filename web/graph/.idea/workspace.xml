@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="daaef5ef-5742-4c21-a0c8-c9ff9ae37dcb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/target/classes/application/DemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../web/target/classes/application/DemoApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/target/classes/application/bean/ImagePath.class" beforeDir="false" afterPath="$PROJECT_DIR$/../web/target/classes/application/bean/ImagePath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/target/classes/application/controller/GraphController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../web/target/classes/application/controller/GraphController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/target/classes/application/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../web/target/classes/application/controller/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/target/classes/application/graph/Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/../web/target/classes/application/graph/Edge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/target/classes/application/graph/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/../web/target/classes/application/graph/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/target/classes/application/graph/GraphData.class" beforeDir="false" afterPath="$PROJECT_DIR$/../web/target/classes/application/graph/GraphData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/target/classes/application/graph/PrivilegeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../web/target/classes/application/graph/PrivilegeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/target/classes/application/service/PlotService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../web/target/classes/application/service/PlotService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/target/surefire-reports/TEST-application.DemoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web/target/surefire-reports/TEST-application.DemoTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/target/surefire-reports/application.DemoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../web/target/surefire-reports/application.DemoTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/target/test-classes/application/DemoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../web/target/test-classes/application/DemoTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/graph$plot.coverage" NAME="plot Coverage Results" MODIFIED="1589702371919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/graph$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1589428222388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1dIqVCm8chLPY6srBM58ufRzvIz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../work/web-ssh-cmd-detect/code" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Django Server.graph">
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
+      <module name="graph" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.pyenv/versions/QT5_envs/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="graph" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="graph" type="Python.DjangoServer" factoryName="Django server">
+      <module name="graph" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="graph.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django Server.graph" />
+      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.plot" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.plot" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="daaef5ef-5742-4c21-a0c8-c9ff9ae37dcb" name="Default Changelist" comment="" />
+      <created>1589428076383</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589428076383</updated>
+      <workItem from="1592122980584" duration="720000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>
